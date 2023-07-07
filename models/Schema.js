@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+
 const SchemaTrans = new mongoose.Schema({
     text : {
         type : String,
